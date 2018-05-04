@@ -5,7 +5,7 @@
     padding:        5px 20px;
 }
 
-.logo{display: block;
+.logo{display: flex;
     margin-left: auto;
     margin-right: auto;
 }
@@ -13,7 +13,10 @@
 .logoimg{padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;}
+    padding-left: 80px;
+    height: auto;
+    width: auto;
+}
 
 body, html {
     background-color: #FFF2F8;
