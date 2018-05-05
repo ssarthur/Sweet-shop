@@ -116,6 +116,7 @@ body, html {
 
 /*contact.html specific css*/
 #contactusmsg{background-color:#B8F2E6;font-family: 'Petit Formal Script', cursive; font-size: 2.5em;padding:5px 20px;text-align: center;}
+.contactform{display: flex;justify-content: center;align-items: center;}
 
 /*about.html specific css*/
 
@@ -164,3 +165,10 @@ body, html {
 .footer{display: flex; font-family:'Petit Formal Script', cursive; font-size: 1.0em;padding: 25px 50px 75px 100px;;text-align: center;}
 .location{ padding: 25px 50px 75px 50px;}
 .hours{padding: 25px 50px 75px 50px;}
+
+/*make footer respsonsive using media query*/
+@media only screen and (min-width:576px)
+{
+  .footer{flex-wrap:nowrap;}
+ 
+}
