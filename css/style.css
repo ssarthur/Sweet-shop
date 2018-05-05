@@ -162,5 +162,5 @@ body, html {
 }
 .socialmedia{  text-align: center;padding: 25px 50px 75px 100px;}
 .footer{display: flex; font-family:'Petit Formal Script', cursive; font-size: 1.0em;padding: 25px 50px 75px 100px;;text-align: center;}
-.location{ padding: 25px 50px 75px 100px;}
-.hours{padding: 25px 50px 75px 100px;}
+.location{ padding: 25px 50px 75px 50px;}
+.hours{padding: 25px 50px 75px 50px;}
