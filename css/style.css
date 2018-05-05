@@ -24,7 +24,11 @@ body, html {
     height: 100%;
 }
 
-/* The hero image */
+.logoimg{background-color: white;display: flex;}
+
+/*index.html specific css/*
+
+* The hero image */
 .hero-image {
     /* The image used */
     background-image: url("https://i.imgur.com/QtbUQXO.jpg");
@@ -38,8 +42,15 @@ body, html {
     background-size: cover;
     position: relative;
 }
+.btn-info{ background-color:#B8F2E6; font-family: 'Petit Formal Script', cursive; color:black;font-size: 2.0em}
+.newproducts{background-color: #B8F2E6;  text-align: center;padding-top: 50px;}
+.announcement{background-color:#B8F2E6;font-family: 'Petit Formal Script', cursive; font-size: 2.5em;padding:20px 20px;}
+.space{padding: 25px 50px 75px 100px;}
+
+/*shop.html specific css/*
 
 .hero-image2{ /* The image used */
+.hero-image2{
     background-image: url("https://i.imgur.com/8eHMRrL.jpg");
 
     /* Set a specific height */
@@ -62,25 +73,10 @@ body, html {
     color: white;
 }
 
-.jumbotron .container{
-  text-align: center;
-  background-color:#FFF2F8;
-  
-}
-
-.col-sm{background-color:#FFF2F8;}
-.container{background-color: #FFF2F8;}
-
 .newproducts{background-color: #B8F2E6;  text-align: center;padding-top: 50px;}
-
-.pad{padding-top: 5px;
-    padding-bottom: 5px;}
-
-.logoimg{background-color: white;display: flex;}
-.announcement{background-color:#B8F2E6;font-family: 'Petit Formal Script', cursive; font-size: 2.5em;padding:20px 20px;}
 .ourprod{background-color:#B8F2E6;;font-family: 'Petit Formal Script', cursive; font-size: 2.5em;padding:5px 20px;}
 
-#color{background-color: #FFF2F8;}
+/* product pics*/
 
 #indcake:hover{opacity: 0.7;
 }
@@ -109,13 +105,6 @@ body, html {
 #mac4:hover{opacity: 0.7;
 }
 
-.formcontain{width: 1500px; height: 1100px; display: flex}
-
-#contactusmsg{background-color:#B8F2E6;font-family: 'Petit Formal Script', cursive; font-size: 2.5em;padding:5px 20px;text-align: center;}
-
-.btn-info{ background-color:#B8F2E6; font-family: 'Petit Formal Script', cursive; color:black;font-size: 2.0em}
-.aboutus{background-color:#B8F2E6;  font-family: 'Petit Formal Script', cursive; color:black;font-size: 2.5em;text-align: center;}
-
 /*modal styling*/
 .modal-footer{background-color:#FFF2F8;}
 .modal-body{background-color: #FFF2F8;font-family: 'Petit Formal Script', cursive; color:black;}
@@ -123,7 +112,14 @@ body, html {
 .btn-primary{background-color:#B8F2E6; font-family: 'Petit Formal Script', cursive; color:black;font-size: 1.5em}
 .btn-secondary{background-color:#B8F2E6; font-family: 'Petit Formal Script', cursive; color:black;font-size: 1.5em}
 
-.space{padding: 25px 50px 75px 100px;}
+.shopfooot{padding: 25px 50px 75px 100px;}
+
+/*contact.html specific css*/
+#contactusmsg{background-color:#B8F2E6;font-family: 'Petit Formal Script', cursive; font-size: 2.5em;padding:5px 20px;text-align: center;}
+
+/*about.html specific css*/
+
+
 
 /* Style all social media icons */
 .fa {
@@ -164,4 +160,7 @@ body, html {
   background:	#E84C3D;
   color: white;
 }
-.footer{  text-align: center;padding: 25px 50px 75px 100px;}
+.socialmedia{  text-align: center;padding: 25px 50px 75px 100px;}
+.footer{display: flex; font-family:'Petit Formal Script', cursive; font-size: 1.0em;padding: 25px 50px 75px 100px;;text-align: center;}
+.location{ padding: 25px 50px 75px 100px;}
+.hours{padding: 25px 50px 75px 100px;}
